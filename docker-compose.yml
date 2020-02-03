@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  leveldb-sandbox:
+    build:
+      context: .
+    volumes:
+      - '.:/app'
